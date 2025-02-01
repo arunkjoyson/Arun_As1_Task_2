@@ -83,7 +83,7 @@ namespace BasketballTickets
             Console.WriteLine($"Purple tickets: {purpleTickets} @ ${(decimal)TicketType.Purple} each");
             Console.WriteLine($"Green tickets: {greenTickets} @ ${(decimal)TicketType.Green} each");
             Console.WriteLine($"Blue tickets: {blueTickets} @ ${(decimal)TicketType.Blue} each");
-            Console.WriteLine($"\nTotal cost: ${totalCost}");
+            Console.WriteLine($"\nTotal cost: {totalCost:C}");
             Console.WriteLine($"Total tickets bought: {totalTickets}");
             Console.WriteLine($"Average ticket price: ${averagePrice:F2}");
 
